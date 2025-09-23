@@ -23,11 +23,21 @@
 }
 ```
 
+модификаторы доступа - public, private
+
+возвращаемое значение - int, double ... любой тип, НО если функция ничего не возвращает, то void
+
 Пример:
 
 ```java
 public static void sayHello() {
     System.out.println("Привет!");
+
+    int tenPlusOne = sum(10);
+}
+
+public static int sum(int a) {
+    return a + 1;
 }
 ```
 
