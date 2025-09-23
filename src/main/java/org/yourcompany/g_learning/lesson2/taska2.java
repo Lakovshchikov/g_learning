@@ -63,10 +63,10 @@ public class taska2 {
              }
              break;
          case 2:
-            if (name.contains("ivan")) { // 2
+            if (name.toUpperCase().contains("IVAN")) { // 2
                 System.out.println("Hi, Ivan");
             } else { 
-                System.out.println("Hi, " + name.toLowerCase()); // 1
+                System.out.println("Hi, " + name.toUpperCase()); // 1
             }
               break;
          case 3:
@@ -88,11 +88,8 @@ public class taska2 {
                 }
             }
             break;
-         case 4:
-            if (choice > 3 && choice <1) { //3
+              default:
                 System.out.println("Neizvestnaya comanda");
-            }
-            break;
-     }
+        }
     } 
 }

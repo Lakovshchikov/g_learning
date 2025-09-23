@@ -41,14 +41,14 @@ public class taska3 {
     
     // System.out.println("Srednee znachenie: " + sum / num.length);
     
-    int [] num = {1, 2, 3, 4, 5, 6};
-    int chet = 0;
-    for (int i = 0; i < num.length; i++){
-        if ( num [i] % 2 ==0){
-            chet++;
-        }
-    }
-    System.out.println("Chetnoe chislo: " + chet);
+    // int [] num = {1, 2, 3, 4, 5, 6};
+    // int chet = 0;
+    // for (int i = 0; i < num.length; i++){
+    //     if ( num [i] % 2 ==0){
+    //         chet++;
+    //     }
+    // }
+    // System.out.println("Chetnoe chislo: " + chet);
 
    }
 }
