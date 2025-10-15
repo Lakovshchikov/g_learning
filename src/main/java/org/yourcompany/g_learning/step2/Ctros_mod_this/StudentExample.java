@@ -1,3 +1,5 @@
+package org.yourcompany.g_learning.step2.Ctros_mod_this;
+
 /**
  * Класс Student - пример работы с:
  * - конструкторами (несколько вариантов)
