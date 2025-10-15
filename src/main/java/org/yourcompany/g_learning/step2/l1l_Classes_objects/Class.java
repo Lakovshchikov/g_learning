@@ -124,18 +124,14 @@ public class Class {
         // b = 10;
         // System.out.println(a);
 
-        Flower flower1 = new Flower();
-        flower1.type = "Home";
-        flower1.title = "Spatifillum";
-        flower1.height = 10;
+        // Flower flower1 = new Flower();
+        // flower1.type = "Home";
+        // flower1.title = "Spatifillum";
 
-        Flower flower2 = new Flower();
-        flower2.type = "Strit";
-        flower2.title = "Gartenziya";
-        flower2.height = 13;
+        // Flower flower2 = new Flower();
+        // flower2.type = "Strit";
+        // flower2.title = "Gartenziya";
 
-        flower1.grow(5);
-        flower2.grow(10);
 
     }
 
