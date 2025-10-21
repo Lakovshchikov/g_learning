@@ -496,41 +496,25 @@ public class Main {
         };
 
         System.out.println("=== Все книги в библиотеке ===");
-        // 2. Вывод всех книг
-        for (Book book : library) {
-            book.printInfo();
-        }
+
 
         System.out.println("\n=== Доступные книги ===");
-        // 3. Вывод только доступных книг
-        for (Book book : library) {
-            if (book.isAvailable()) {
-                book.printInfo();
-            }
-        }
+
 
         // 4. Взять 2 книги
         System.out.println("\n=== Берём книги ===");
-        library[0].borrowBook();  // 1984
-        library[2].borrowBook();  // Мастер и Маргарита
+
 
         // 5. Попытка взять уже взятую книгу
-        library[0].borrowBook();  // Ошибка!
+
 
         // 6. Возврат книги
         System.out.println("\n=== Возвращаем книгу ===");
-        library[0].returnBook();
 
         // 7. Снова выводим доступные
         System.out.println("\n=== Доступные книги после операций ===");
-        for (Book book : library) {
-            if (book.isAvailable()) {
-                book.printInfo();
-            }
-        }
 
         // 8. Общее количество
-        System.out.println("\nВсего книг в системе: " + Book.getTotalBooks());
     }
 }
 ```
